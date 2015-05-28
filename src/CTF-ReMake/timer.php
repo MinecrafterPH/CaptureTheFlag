@@ -1,6 +1,6 @@
 <?php
 
-namespace CTF;
+namespace CTF-ReMake;
 
 use pocketmine\scheduler\PluginTask;
 use pocketmine\Server;
