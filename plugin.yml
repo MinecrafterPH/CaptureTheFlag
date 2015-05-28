@@ -1,5 +1,5 @@
 name: CTF
-main: CTF-ReMake\Main
+main: ctf\Main
 version: 1.0.0
 api: [1.0.0]
 website: none
