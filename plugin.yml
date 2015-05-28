@@ -4,22 +4,22 @@ version: 1.0.0
 api: [1.0.0]
 website: none
 author: 
-description: "CTF plugin, EPICMC"
+description: "Minigame based on EPICMC."
 commands: 
     ctfbs:
-        description: ctf command
+        description: Sets spawn for Blue team.
     ctfbr:
-        description: ctf command
+        description: Sets where to return blue flag.
     ctfbf:
-        description: ctf command
+        description: Sets location of blue flag.
     ctfrs:
-        description: ctf command
+        description: Sets spawn for Red team.
     ctfrr:
-        description: ctf command
+        description: Sets where to return red flag.
     ctfrf:
-        description: ctf command
+        description: Sets location of red flag.
     lobbyset:
-        description: ctf command
+        description: Sets location of lobby.
     ctfedit:
-        description: ctf command to allow ops to edit world
+        description: Allows ops to edit world.
 
