@@ -1,0 +1,25 @@
+name: CTF
+main: CTF-ReMake\Main
+version: 1.0.0
+api: [1.0.0]
+website: none
+author: 
+description: "CTF plugin, EPICMC"
+commands: 
+    ctfbs:
+        description: ctf command
+    ctfbr:
+        description: ctf command
+    ctfbf:
+        description: ctf command
+    ctfrs:
+        description: ctf command
+    ctfrr:
+        description: ctf command
+    ctfrf:
+        description: ctf command
+    lobbyset:
+        description: ctf command
+    ctfedit:
+        description: ctf command to allow ops to edit world
+
