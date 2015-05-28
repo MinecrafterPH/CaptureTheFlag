@@ -1,6 +1,6 @@
 <?php
 
-namespace CTF-ReMake;
+namespace ctf;
 
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
@@ -33,7 +33,7 @@ class Main extends PluginBase implements Listener{
 		$this->config = new Config($this->getDataFolder(). "config.yml", Config::YAML);
                 $this->saveDefaultConfig();
 		$this->reloadConfig();
-                $this->getLogger()->info(TextFormat::YELLOW . "CTF ENABLED!");
+                $this->getLogger()->info(TextFormat::DARK_BLUE . "CTF ENABLED!");
                 $this->getConfig()->setDefaults(array("Maximum score to win (Integer)" => 15, "Game Length (Mins)" => 20));
                 $this->getServer()->getScheduler()->scheduleRepeatingTask(new timer($this), 1200);
                 
