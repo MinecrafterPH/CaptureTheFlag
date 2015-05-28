@@ -1,2 +1,2 @@
-# CTF-ReMade
-a remake of ctf from EPICMC
+# Capture The Flag (CTF)
+###### Adds CTF to servers! (based on EPICMC minigame)
