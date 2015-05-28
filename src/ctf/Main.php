@@ -21,9 +21,8 @@ use pocketmine\event\entity\EntityDamageEvent;
 use pocketmine\event\entity\EntityDamageByEntityEvent;
 use pocketmine\event\entity\EntityDeathEvent;
 use pocketmine\Player;
-use pocketmine\event\entity\EntityMoveEvent;
 
-class Main extends PluginBase implements Listener{
+Class Main extends PluginBase implements Listener{
     public $editors;
     public $temp;
     
@@ -229,7 +228,7 @@ class Main extends PluginBase implements Listener{
                 unset($this->temp["RedPlayers"][$player->getName()]);
             }
          }
-    public function onEntityMove(EntityMoveEvent $event) {
+   public function onEntityMove(EntityMoveEvent $event) {
         $x = round($event->getEntity()->getX());
         $y = round($event->getEntity()->getY());
         $z = round($event->getEntity()->getZ());
@@ -237,6 +236,7 @@ class Main extends PluginBase implements Listener{
         $red = $this->getConfig()->get("RedReturn");
         $blues = $this->getConfig()->get("BlueSpawn");
         $reds = $this->getConfig()->get("RedSpawn");
+		
         
         if ($x == $blue["x"] and $y == $blue["y"] and $z == $blue["z"]){
             $pos = new Position($blues["x"], $blues["y"], $blues["z"], $event->getEntity()->getLevel());
