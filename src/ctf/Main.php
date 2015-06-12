@@ -105,7 +105,7 @@ Class Main extends PluginBase implements Listener{
                 $player->sendMessage("You can only place the flag once.");
                 }
                 else {
-                $this->getServer()->broadcastMessage(TextFormat::GREEN." . $player->getDisplayName() . " captured the BLUE team's flag!");
+                $this->getServer()->broadcastMessage(TextFormat::GREEN." . $player->getDisplayName() . " captured the BLUE teams flag!");
                 $this->temp[$player->getName()] = true;
                 $player->setNameTag(TextFormat::RED." . $player->getName());
                 }
@@ -123,7 +123,7 @@ Class Main extends PluginBase implements Listener{
                 $player->sendMessage("You can only place the flag once.");
                 }
                 else {
-                $this->getServer()->broadcastMessage(TextFormat::GREEN." . $player->getDisplayName() . "captured the RED team's flag!");
+                $this->getServer()->broadcastMessage(TextFormat::GREEN." . $player->getDisplayName() . "captured the RED teams flag!");
                 $this->temp[$player->getName()] = true;
                 $player->setNameTag(TextFormat::BLUE." . $player->getName());
                 }
